@@ -3,7 +3,7 @@ PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
 LANG=en_US.UTF-8
 panelPort="7800"
-downurl="http://154.205.6.150:99"
+downurl=https://raw.githubusercontent.com/tyycloud/LinuxPanel/main/
 
 if [ $(whoami) != "root" ]; then
 	echo "Error: 您必须是root才能运行此脚本，请使用root安装"
