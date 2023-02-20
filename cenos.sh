@@ -111,7 +111,7 @@ Set_Ssl() {
                 SET_SSL=false
                 ;;
             *)
-                Set_Ssl
+                SET_SSL=true
         esac
     fi
 }
