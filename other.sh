@@ -104,7 +104,7 @@ Set_Ssl() {
         SET_SSL=true
     else
         case "$yes" in
-            yes)
+            y)
                 SET_SSL=true
                 ;;
             n)
