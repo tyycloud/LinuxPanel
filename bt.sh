@@ -2,7 +2,7 @@
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
 LANG=en_US.UTF-8
-downurl=http://154.205.6.150:99
+downurl=https://raw.githubusercontent.com/tyycloud/LinuxPanel/main/
 
 if [ -f "/usr/bin/yum" ] && [ -d "/etc/yum.repos.d" ]; then
 	wget -O cenos.sh $downurl/cenos.sh && bash cenos.sh
